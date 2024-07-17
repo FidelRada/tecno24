@@ -827,7 +827,8 @@ class FormularioPedido extends Component
             //$lnMontoClienteEmpresa = $monto;                //Monto del Pago
             $lnMontoClienteEmpresa = 0.01;                //Monto del Pago
             $lcCorreo = $email;                             //Email del Cliente
-            $lcUrlCallBack = "https://www.tecnoweb.org.bo/inf513/grupo10sa/registrarPago";//"https://e329-181-41-158-54.ngrok-free.app/registrarPago";           
+            $lcUrlCallBack = "http://fidelrada.tecnologia.bo/registrarPago";
+            //"https://www.tecnoweb.org.bo/inf513/grupo10sa/registrarPago";//"https://e329-181-41-158-54.ngrok-free.app/registrarPago";           
             $lcUrlReturn = "";                              //por default es: "http://localhost:8000/"
             $laPedidoDetalle = $pedidoDetalleD;             //Detalle
             $lcUrl = "";
